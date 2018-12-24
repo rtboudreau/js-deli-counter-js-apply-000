@@ -42,8 +42,8 @@ function currentLine(katzDeliLine) {
 let linePosition = 1;
 
 function takeANumber(katzDeliLine){
-  katzDeliLine.push(linePosition ++);
-  return `Welcome!  You\'re ticket ${linePosition}`;
+  katzDeliLine.push(linePosition);
+  return `Welcome!  You\'re ticket ${linePosition++}`;
   
 }
 
