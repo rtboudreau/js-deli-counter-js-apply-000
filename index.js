@@ -36,5 +36,21 @@ function currentLine(katzDeliLine) {
     }
     return `The line is currently:${queuePosition}`
   }
-
 }
+
+
+let linePosition = 1;
+
+function takeANumber(katzDeliLine){
+  if (katzDeliLine.length = 1) {
+    rturn 'Welcome! You're ticken number #1
+  }
+}
+
+takeANumber(katzDeliLine) // "Welcome! You're ticket number #1" [1]
+takeANumber(katzDeliLine) // "Welcome! You're ticket number #2" [1,2]
+
+nowServing(katzDeliLine) // Currently serving #1 [2]
+nowServing(katzDeliLine) // Currently serving #2 []
+
+takeANumber(katzDeliLine) // "Welcome! You're ticket number #3" [3]
