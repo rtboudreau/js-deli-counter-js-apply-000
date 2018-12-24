@@ -42,9 +42,7 @@ function currentLine(katzDeliLine) {
 let linePosition = 1;
 
 function takeANumber(katzDeliLine){
-  if (katzDeliLine.length = 1) {
-    rturn 'Welcome! You're ticken number #1
-  }
+  linePosition.push
 }
 
 takeANumber(katzDeliLine) // "Welcome! You're ticket number #1" [1]
